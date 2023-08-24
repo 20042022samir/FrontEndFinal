@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Assets/CSS/Detail.css">
+  <link rel="stylesheet" href="./Assets/CSS/DetailCarousel.css">
+  <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Header-->
+  <header style="background-color:white;position: sticky;top: 0;z-index: 99;">
+    <nav>
+      <div id="logo" style="width: 100px;height: 50px;">
+        <img src="./Assets/Images/Logoo.jpg" style="width: 100%;height: 100%;" />
+      </div>
+      <div id="navbar">
+        <a href="#">Olke</a>
+        <a href="#">Agentlik</a>
+        <a href="#">Dasinmaz Emlak</a>
+        <a href="#">Xidmetler</a>
+        <a href="#">Secilmisler</a>
+      </div>
+      <div id="headerBtns">
+        <a>Filter</a>
+        <a href="./Elan.html">Elan Ver</a>
+        <a href="./LoginPage.html">Daxil Ol</a>
+        <button id="hamBurgerBtns" style="padding: 10px; background-color: transparent;border:none;">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--section 1-->
+  <section id="section1">
+    <div id="section1Container">
+      <div id="section1ContainerLeft">
+        <div id="ccarouselll">
+          <input type="radio" id="image1" name="image" checked>
+          <input type="radio" id="image2" name="image">
+          <input type="radio" id="image3" name="image">
+
+          <div class="container">
+            <div class="featured-wrapper">
+              <ul class="featured-list">
+                <li>
+                  <figure>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature4.jpg" alt="">
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature11.jpg" alt="">
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg" alt="">
+                  </figure>
+                </li>
+              </ul>
+              <ul class="arrows">
+                <li>
+                  <label for="image1"></label>
+                </li>
+                <li>
+                  <label for="image2"></label>
+                </li>
+                <li>
+                  <label for="image3"></label>
+                </li>
+              </ul>
+              <ul class="dots">
+                <li>
+                  <label for="image1"></label>
+                </li>
+                <li>
+                  <label for="image2"></label>
+                </li>
+                <li>
+                  <label for="image3"></label>
+                </li>
+              </ul>
+            </div>
+            <ul class="thumb-list">
+              <li>
+                <label for="image1">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature4.jpg" alt="">
+                  <span class="outer">
+                    <span class="inner">Caption1</span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label for="image2">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature11.jpg" alt="">
+                  <span class="outer">
+                    <span class="inner">Caption2</span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label for="image3">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg" alt="">
+                  <span class="outer">
+                    <span class="inner">Caption3</span>
+                  </span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div style="display: flex;flex-direction: column;row-gap: 20px;padding-top: 20px;align-items: center ;">
+          <h1 style="color: black;">Post Baku residenca</h1>
+          <p><i class="fa-solid fa-location-dot"></i> 57 Uzeyir Hacibeyli</p>
+        </div>
+      </div>
+      <div id="section1ContainerRight">
+        <div id="priceDetail">
+          <p>N 00537</p>
+          <p>Qiymet---> 3700:AY</p>
+        </div>
+        <div id="detailInfo">
+          <div>
+            <span>Tarix--> 18:12:2022</span>
+            <span>Baxis--> 121</span>
+          </div>
+          <div>
+            <span>Otaq sati--></span>
+            <span>3</span>
+          </div>
+          <div>
+            <span>Sahe</span>
+            <span>170M</span>
+          </div>
+          <div>
+            <div id="lefttt">
+              <span>Seher</span>
+              <span>Rayon</span>
+              <span>Metro</span>
+            </div>
+            <div id="reightt">
+              <span>Baki</span>
+              <span>Nesimi</span>
+              <span>28 May</span>
+            </div>
+          </div>
+          <div>
+            <span>Nisangah</span>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+        <div id="ownerUser">
+          <div>
+            <img src="./Assets/Images/UserImage.jpg" style="width: 100px;display: inline-block;" />
+            <h2>Samir</h2>
+          </div>
+          <div id="infouser">
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <a style="color: black;" href="#">+994509671666</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <a style="color: black;" href="#">samir.ismayilov2004@gmail.com</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-whatsapp"></i>
+              <a style="color: black;" href="#">+994509671666</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section 2-->
+  <section id="section2" style="padding-top: 50px;">
+    <div id="section2Container">
+      <div id="section2Up">
+        <h2>Benzer Elanlar</h2>
+      </div>
+      <div id="section2Down">
+        <div class="cardPremium">
+          <div class="cardImageContainer">
+            <img src="./Assets/Images/homeImage.jpeg" />
+          </div>
+          <div style="padding: 20px;">
+            <div class="homePrice">
+              <p><span>M</span>3000/Ay</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="roomCount">
+              <p>5 otaqli -285 m2</p>
+            </div>
+            <div class="areaAndDate">
+              <p>Nesimi R</p>
+              <p>Baki , 04-08-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="cardPremium">
+          <div class="cardImageContainer">
+            <img src="./Assets/Images/homeImage.jpeg" />
+          </div>
+          <div style="padding: 20px;">
+            <div class="homePrice">
+              <p><span>M</span>3000/Ay</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="roomCount">
+              <p>5 otaqli -285 m2</p>
+            </div>
+            <div class="areaAndDate">
+              <p>Nesimi R</p>
+              <p>Baki , 04-08-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="cardPremium">
+          <div class="cardImageContainer">
+            <img src="./Assets/Images/homeImage.jpeg" />
+          </div>
+          <div style="padding: 20px;">
+            <div class="homePrice">
+              <p><span>M</span>3000/Ay</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="roomCount">
+              <p>5 otaqli -285 m2</p>
+            </div>
+            <div class="areaAndDate">
+              <p>Nesimi R</p>
+              <p>Baki , 04-08-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="cardPremium">
+          <div class="cardImageContainer">
+            <img src="./Assets/Images/homeImage.jpeg" />
+          </div>
+          <div style="padding: 20px;">
+            <div class="homePrice">
+              <p><span>M</span>3000/Ay</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="roomCount">
+              <p>5 otaqli -285 m2</p>
+            </div>
+            <div class="areaAndDate">
+              <p>Nesimi R</p>
+              <p>Baki , 04-08-2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="cardPremium">
+          <div class="cardImageContainer">
+            <img src="./Assets/Images/homeImage.jpeg" />
+          </div>
+          <div style="padding: 20px;">
+            <div class="homePrice">
+              <p><span>M</span>3000/Ay</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="roomCount">
+              <p>5 otaqli -285 m2</p>
+            </div>
+            <div class="areaAndDate">
+              <p>Nesimi R</p>
+              <p>Baki , 04-08-2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footter-->
+  <footer id="footer" style="background-color: black; padding: 10px;">
+    <div id="footerContainer">
+      <div id="footerLeft">
+        <div id="seocialMedia">
+          <i class="fa-brands fa-facebook" style="color: white;font-size: 30px;"></i>
+          <i class="fa-brands fa-instagram" style="color: white;font-size: 30px;"></i>
+          <i class="fa-brands fa-linkedin" style="color: white;font-size: 30px;"></i>
+        </div>
+        <p>0509671666</p>
+        <p>@samir.ismayilov2004@gmail.com</p>
+        <p>Azebaijan</p>
+      </div>
+      <div id="footerRight">
+        <div class="footerRightPart">
+          <a href="#">Ana sehife</a>
+          <a href="#">Xidmetler</a>
+          <a href="#">Agentlik</a>
+          <a href="#">Muraciet</a>
+          <a href="#">Blog</a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
+<script src="./Assets/JS/DetailCarousel.js"></script>
+<script src="./Assets/JS/FinalProje.js"></script>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/CSS/Elan.css">
+    <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!--Header-->
+      <header style="background-color:white;position: sticky;top: 0;z-index: 99;" >
+        <nav>
+            <div id="logo" style="width: 100px;height: 50px;" >
+                <img src="./Assets/Images/Logoo.jpg" style="width: 100%;height: 100%;" />
+            </div>
+            <div id="navbar">
+                <a href="#">Olke</a>
+                <a href="#" >Agentlik</a>
+                <a href="#">Dasinmaz Emlak</a>
+                <a href="#">Xidmetler</a>
+                <a href="#">Secilmisler</a>
+            </div>
+            <div id="headerBtns">
+                <a>Filter</a>
+                <a>Elan Ver</a>
+                <a>Daxil Ol</a>
+                <button id="hamBurgerBtns" style="padding: 10px; background-color: transparent;border:none;">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!--section 1-->
+    <section id="section1">
+        <div id="section1Container">
+            <form style="display: flex; column-gap: 50px;margin: auto;">
+                <div id="section1ContainerLeft" >
+                  <p>Umumi Melumatlar</p>
+                  <input type="text" placeholder="Soyad"/>
+                  <input type="text" placeholder="Email"/>
+                  <input type="text" placeholder="Satis"/>
+                  <textarea placeholder="Emlak barede etrafli melumat"></textarea>   
+                  <input type="text" placeholder="mertebe"/>
+                  <input type="text" placeholder="sahe (SOT)"/>
+                  <div id="checkBoxInputs">
+                     <div class="CHBI">
+                         <input type="checkbox" id="temirli" style="width: 20px;"/>
+                          <label for="temirli">Temirli</label>
+                     </div>
+                     <div class="CHBI">
+                         <input type="checkbox" id="kreditle" style="width: 20px;">
+                         <span for="kreditler" >Kreditle</span>
+                         <input type="number">
+                         <label>Illik kreditin faizi</label>
+                     </div>
+                  </div>
+                  <input  placeholder="unvan" type="text"/>
+                  <select style="width: 100px; height: 25px; border-radius: 8px; text-align: center;">
+                     <option>Baki</option>
+                     <option>Naxcivan</option>
+                  </select>
+                  <select style="width: 100px; height: 25px; border-radius: 8px; text-align: center;">
+                     Metro
+                     <option>Avtovagzal</option>
+                     <option>Azadliq</option>
+                  </select>
+                  <div id="photos" >
+                    <h2>Sekiller</h2>
+                    <div style="display: flex; flex-direction: column;">
+                     <input type="file"/>
+                        <span>Eyni anda bir nece sekil yukleye bilersiniz!</span>
+                    </div>
+                  </div>
+                  <div>
+                     <h2>Qiymet</h2>
+                     <input type="number" placeholder="qiymet.."/>
+                  </div>
+                </div>
+                <div id="section11ContainerRight">
+                   <input placeholder="Ad" type="text"/>
+                   <input placeholder="telefon" type="tel"/>
+                   <input placeholder="elanin adi" type="text"/>
+                   <input type="number" placeholder="otaq sayi"/>
+                   <input type="number" placeholder="Sahe"/>
+                   <div>
+                     
+                         <input type="checkbox" style="width: 20px;"/>
+                         <label>Tecilidir</label>    
+                     
+                         <input id="kubca" type="checkbox" style="width: 20px;"/>
+                         <label for="kubca">Kubca var</label>
+                     
+                   </div>
+                   <div>
+                     <h2>Unvan</h2>
+                     <select>
+                         Azerbaycan
+                         <option value="">Azerbaycan</option>
+                         <option value="">Rusya</option>
+                         <option value="">Turkiye</option>
+                     </select>
+                     <select>
+                         Rayon
+                         <option value="">Abseron</option>
+                         <option value="">Bineqedi</option>
+                         <option value="">Xezer</option>
+                     </select>
+                   </div>
+                   <button type="submit" style="width: 180px; height: 40px; cursor: pointer;background-color: #483B1F;color: white;">Elan Ver</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+     <footer id="footer"  style="background-color: black; padding: 10px;">
+        <div id="footerContainer" >
+          <div id="footerLeft">
+            <div id="seocialMedia">
+              <i class="fa-brands fa-facebook" style="color: white;font-size: 30px;"></i>
+              <i class="fa-brands fa-instagram"  style="color: white;font-size: 30px;"></i>
+              <i class="fa-brands fa-linkedin" style="color: white;font-size: 30px;"></i>
+            </div>
+            <p>0509671666</p>
+            <p>@samir.ismayilov2004@gmail.com</p>
+            <p>Azebaijan</p>
+            <p></p>
+          </div>
+          <div id="footerRight">
+            <div class="footerRightPart">
+              <a href="#">Ana sehife</a>
+              <a href="#">Xidmetler</a>
+              <a href="#">Agentlik</a>
+              <a href="#">Muraciet</a>
+              <a href="#">Blog</a>
+            </div>
+            
+          </div>
+          
+        </div>
+      </footer>
+      
+</body>
+</html>
+
+<script src="./Assets/JS/FinalProje.js"></script>
