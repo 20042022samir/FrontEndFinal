@@ -238,13 +238,15 @@ header nav{
 #section3ConntainerDown{
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     column-gap: 20px;
 }
 .homeCardd{
-    width: 250px;
+    width: 300px;
     display: flex;
+    margin: 10px;
     flex-direction: column;
     row-gap: 8px;
     border: 1px solid black;
@@ -397,8 +399,12 @@ header nav{
     text-decoration: none;
     color: black;
 }
-
-
+.areaAndDate{
+    padding-left: 20px;
+}
+.homePrice{
+    padding-left: 3px;
+}
 
 /*responsive design*/
 /*tablet design*/
@@ -507,8 +513,10 @@ header nav{
         justify-content: center;
         align-items: center;
     }
+    
     .cardPremium{
         width: 300px;
+        margin: 10px;
     }
     /*section 2*/
     #section2Container{
@@ -517,11 +525,12 @@ header nav{
     }
     /*section 3*/
     #section3Container{
-       width: 330px;
+       width: 400px;
     }
     
+    
     .homeCardd{
-        width: 300px;
+      width: 330px;
     }
     #footerContainer{
         width: 330px;

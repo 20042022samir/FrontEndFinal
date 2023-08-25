@@ -6,18 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Assets/CSS/HomePage.css">
     <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./Assets/CSS/Agentlik.css">
+    <link rel="stylesheet" href="./Assets/CSS/AboutPage.css">
 </head>
 <body>
-     <!--Header-->
-  <header style="background-color:white;position: sticky;top: 0;z-index: 99;">
+
+
+    <!--Header-->
+  <header style="background-color:white;position: sticky;top: 0;z-index: 99; border-bottom: 3px solid red;">
     <nav>
       <div id="logo" style="width: 100px;height: 50px;">
         <img src="./Assets/Images/Logoo.jpg" style="width: 100%;height: 100%;" />
       </div>
       <div id="navbar">
         <a href="#">Olke</a>
-        <a href="#">Agentlik</a>
+        <a href="./Agentlik.html">Agentlik</a>
         <a href="#">Dasinmaz Emlak</a>
         <a href="#">Xidmetler</a>
         <a href="#">Secilmisler</a>
@@ -76,76 +78,34 @@
   <!--phoneModal-->
   <div id="phoneModal">
     <button id="phoneModalCloseBtn" style="border: none; background-color: transparent; color: red; font-size: 20px;">X</button>
-    <a href="#">Haqqinda</a>
+    <a href="">Haqqinda</a>
     <a href="./Elan.html">Elan Ver</a>
+    <a href="./Agentlik.html">Agentlik</a>
     <a href="./LoginPage.html">Daxil Ol</a>
+    <a href="./BlogMain.html">Blog</a>
   </div>
 
   <!--section 1-->
-  <section id="sectionn1">
-    <div id="section1Containerrr">
-       <div id="section1UP">
-          <h1>Agentlik</h1>
+  <section id="sectionn1" >
+    <div id="section1Containerrrr">
+       <div id="section1Leftpart">
+         <img src="./Assets/Images/smileAboutImage.jpg" style="width: 100%;"/>
        </div>
-       <div id="section1Down">
-          <div class="agent">
-             <div class="agentInfo">
-                <img src="./Assets/Images/UserImage.jpg" style="width: 80px;">
-                <div>
-                    <span>Nijat</span>
-                    <span>Agent</span>
-                </div>
-             </div>
-             <div class="agentPhoneAndMail">
-               <p><i class="fa-solid fa-envelope"></i> samir.ismayilov2004@gmail.com</p>
-               <p><i class="fa-solid fa-phone"></i> +994509671666</p>
-             </div>
-          </div>
-          <div class="agent">
-            <div class="agentInfo">
-               <img src="./Assets/Images/UserImage.jpg" style="width: 80px;">
-               <div>
-                   <span>Nijat</span>
-                   <span>Agent</span>
-               </div>
-            </div>
-            <div class="agentPhoneAndMail">
-              <p><i class="fa-solid fa-envelope"></i> samir.ismayilov2004@gmail.com</p>
-              <p><i class="fa-solid fa-phone"></i> +994509671666</p>
-            </div>
-         </div>
-         <div class="agent">
-          <div class="agentInfo">
-             <img src="./Assets/Images/UserImage.jpg" style="width: 80px;">
-             <div>
-                 <span>Nijat</span>
-                 <span>Agent</span>
-             </div>
-          </div>
-          <div class="agentPhoneAndMail">
-            <p><i class="fa-solid fa-envelope"></i> samir.ismayilov2004@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> +994509671666</p>
-          </div>
-       </div>
-       <div class="agent">
-        <div class="agentInfo">
-           <img src="./Assets/Images/UserImage.jpg" style="width: 80px;">
-           <div>
-               <span>Nijat</span>
-               <span>Agent</span>
-           </div>
-        </div>
-        <div class="agentPhoneAndMail">
-          <p><i class="fa-solid fa-envelope"></i> samir.ismayilov2004@gmail.com</p>
-          <p><i class="fa-solid fa-phone"></i> +994509671666</p>
-        </div>
-     </div>
+       <div id="section1RightPartt">
+          <p style="word-break: break-all;">
+               <span style="padding-right: 4px;">Sayın Həmvətənlər</span> ,
+
+Bizlə əlaqə qurmağınız üçün böyük bir sevinclə, sizi [Şirkətin Adı] adlı şirkətimizin dəyərli müştəriləri arasında görmək istərdik. Biz müştərilərimizin gözləntilərini aşmağı, innovativ həllər təqdim etməyi və ən yüksək keyfiyyət standartlarını qorumağı əsas prinsip kimi seçirik.
+
+[Şirkətin Adı] kimi uğurlu bir satış şirkəti olaraq, əsas məqsədimiz müştəri memnuniyyətidir. Bu məqsədə nail olmaq üçün fəaliyyət göstərdiyimiz sahədəki təcrübəmiz, sərfəli qiymətlərimiz və innovativ yanaşmamızla fərqlənirik. Biz müştərilərimizə təklif etdiyimiz məhsullar və xidmətlər vasitəsilə onların həyatını asanlaşdırmağı və daha keyfiyyətli etməyi hədəfləyirik.
+          </p>
        </div>
     </div>
   </section>
 
-   <!--footer-->
-   <footer id="footer" style="background-color: black; padding: 10px;">
+
+  <!--footer-->
+  <footer id="footer" style="background-color: black; padding: 10px;">
     <div id="footerContainer">
       <div id="footerLeft">
         <div id="seocialMedia">
@@ -161,7 +121,7 @@
         <div class="footerRightPart">
           <a href="./FinalProject.html">Ana sehife</a>
           <a href="#">Xidmetler</a>
-          <a href="#">Agentlik</a>
+          <a href="./Agentlik.html">Agentlik</a>
           <a href="./BlogMain.html">Blog</a>
           <a href="#">Muraciet</a>
         </div>
@@ -170,6 +130,7 @@
 
     </div>
   </footer>
+
 
 </body>
 </html>

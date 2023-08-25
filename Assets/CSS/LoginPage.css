@@ -172,11 +172,14 @@ input[type="submit"]:active
     height: calc(10vw - 2px);
   }
 }
-@media (max-width: 600px)
+@media (max-width: 890px)
 {
   section span 
   {
     width: calc(20vw - 2px);
     height: calc(20vw - 2px);
+  }
+  .container{
+    width: 330px;
   }
 }

@@ -43,14 +43,19 @@
   
   body {
     color: var(--white);
-    margin: 20px 0;
     font-family: sans-serif;
   }
   
   .container {
-    max-width: 450px;
+    max-width: 600px;
     padding: 0 20px;
     margin: 0 auto;
+  }
+
+  @media screen and (max-width:890px) {
+    .container{
+      max-width: 500px;
+    }
   }
   
   /* SLIDESHOW
